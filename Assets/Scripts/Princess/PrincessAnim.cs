@@ -8,6 +8,7 @@ public class PrincessAnim: MonoBehaviour
     [SerializeField] PrincessJump jump;
     [SerializeField] GroundChecker checker;
     Animator anim;
+    [SerializeField] ParticleSystem smokeFX;
     
     void Start()
     {
@@ -37,10 +38,12 @@ public class PrincessAnim: MonoBehaviour
         if (jump.isJumping || !checker.isGrounded)
         {
             anim.Play("Jump");
+            smokeFX.Play();
         }
         else if (move.isWalking)
         {
             anim.Play("Run");
+            smokeFX.Play();
         }
         else
         {

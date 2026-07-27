@@ -5267,7 +5267,7 @@ Transform:
   - {fileID: 1203806013}
   - {fileID: 648202785}
   m_Father: {fileID: 1544992940}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &432558803
 GameObject:
@@ -5792,70 +5792,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558454001}
   m_CullTransparentMesh: 1
---- !u!1 &559649209
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 559649210}
-  - component: {fileID: 559649212}
-  - component: {fileID: 559649211}
-  m_Layer: 0
-  m_Name: LeafFallSpawner (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &559649210
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 559649209}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1544992940}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &559649211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 559649209}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9828bb4395e793b459db4af41546f9db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnerXPosition: 0
-  virtualCam: {fileID: 0}
-  cameraPos: {x: 0, y: 0}
---- !u!114 &559649212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 559649209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ae81e4d11421b4a9dd57a99646736e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leafPrefab:
-  - {fileID: 5552201539814849842, guid: 05800f1acaa9f47408f83c44d4b9939d, type: 3}
-  - {fileID: 2816933377849062968, guid: 86b338bf039566940b0e6932ff7f6622, type: 3}
-  spawnTime: 0
-  randomIndex: 0
 --- !u!1 &648202784
 GameObject:
   m_ObjectHideFlags: 0
@@ -8074,7 +8010,6 @@ Transform:
   - {fileID: 1953219891}
   - {fileID: 916354674}
   - {fileID: 1103479465}
-  - {fileID: 559649210}
   - {fileID: 419135147}
   m_Father: {fileID: 0}
   m_RootOrder: 5

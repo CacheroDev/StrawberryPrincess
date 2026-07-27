@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Feet
   - Ground
+  - Virtual_Cam
   layers:
   - Default
   - TransparentFX

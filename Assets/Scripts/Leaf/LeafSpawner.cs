@@ -27,7 +27,6 @@ public class LeafSpawner : MonoBehaviour
             Instantiate(leafPrefab[randomIndex], transform.position, transform.rotation);
             yield return new WaitForSeconds(spawnTime);
             Instantiate(leafPrefab[randomIndex], transform.position, transform.rotation);
-            
         }
     }
 }
